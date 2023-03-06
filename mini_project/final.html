@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encryption-Decryption</title>
+    <link rel="stylesheet" href="final.css">
+</head>
+<body>
+    <h1>Security-Matters </h1>
+    <form class="hello">
+        <h2 class="encrypt" id="inputText">Enter your Text in Box:</h2>
+        <textarea class="sejal" name="" id="input" cols="50" rows="10" placeholder="Hey, this is SEIT A" > </textarea><br>
+        <label for="shiftAmount" class="Shift"><b>Enter Shift Number:</b></label>
+        <input type="number" name="" id="shiftAmount" value="1"><br>
+        <button type="button" id="enc" class="btn btn-outline-dark">Encrypt Text</button>
+        <button type="button" id="dec" class="btn btn-outline-dark">Decrypt Text</button>
+    </form>
+    <form class="bye">
+        <h2 id="outputTEXT" class="code">Encryption/Decryption code Below:</h2>
+        <textarea class="suraj" name="" id="output" cols="50" rows="10" placeholder="Hey, this is SEIT A"> </textarea><br>
+       
+        <button onclick="myFunction()" class="btn btn-outline-dark" type="button" id="Copy" >Copy Text</button>
+        </form>
+        <script src="encodeDecode.js"></script>
+
+        <script>
+            function myFunction() {
+                var copyText = document.getElementById("output");
+                copyText.select();
+                copyText.setSelectionRange(0, 99999)
+                document.execCommand("copy");
+                alert("text Copied");
+            }
+    
+        </script>
+</body>
+</html>

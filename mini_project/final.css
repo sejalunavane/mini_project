@@ -1,0 +1,106 @@
+body {
+    /* background-image: url("https://th.bing.com/th/id/OIP.nQ3KcWs_nfbszFsVQcR8PwHaEo?w=300&h=187&c=7&o=5&dpr=1.25&pid=1.7"); */
+    background-image: url(hand.webp);
+    background-repeat: no-repeat;
+    
+    background-size: cover;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+    
+  }
+ h1{
+    color: white;
+    margin-left: 39%;
+    margin-top: -5;
+ }
+
+ .encrypt{
+    color: whitesmoke;
+    margin-left: 8%;
+    
+
+    
+ }
+ .sejal{
+    margin-top: 2%;
+    margin-left: 5%;
+    border-radius: 7px;
+    opacity: 31%;
+    color: black;
+ }
+ #enc{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 7px;
+    margin: 2%;
+    
+    margin-left:9%;
+   
+ }
+ #enc:hover{
+    
+    color: rgb(133, 138, 139);
+    border-radius: 7px;
+    
+ }
+
+ #dec{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 7px;
+    width: 9%;
+    margin: 3%;
+
+ }
+ #dec:hover{
+    
+    color: rgb(133, 138, 139);
+    
+    
+ }
+
+ .suraj{
+    
+    margin-left: 63%;
+    border-radius: 7px;
+    opacity: 31%;
+    color: black;
+ }
+ h2.code{
+  color: whitesmoke;
+  margin-left: 61%;
+ 
+ }
+ .hello{
+    margin: 5%;
+ }
+ #Copy{
+    background-color: black;
+    color: aliceblue;
+    border-radius: 7px;
+    margin: 2%;
+    
+    margin-left:75%;
+
+ }
+ #Copy:hover{
+    color: rgb(133, 138, 139);
+
+ }
+
+ .bye{
+    margin: -9%;
+
+ }
+ :placeholder-shown{
+   color: black;
+ }
+ .Shift{
+   background-color: black;
+   color: aliceblue;
+   margin: 2.7%;
+   padding: 1%;
+ }
+ #shiftAmount{
+   opacity: 25%;
+   border-radius: 5%;
+ }
